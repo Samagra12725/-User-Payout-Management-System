@@ -43,7 +43,7 @@ Create a `.env` file in the root directory (one is already prepared for you) wit
 
 ```env
 PORT=3000
-MONGODB_URI=mongodb+srv://jaiswalsamagra_db_user:JeYqQd2dUbauZPW4@cluster0.9mkvv2t.mongodb.net/payout_db?retryWrites=true&w=majority
+MONGODB_URI="Add your MongoDB_URL"
 ```
 
 *(The MONGODB_URI points to the user-supplied MongoDB Atlas cluster and automatically creates the target databases `payout_db` for development and `payout_db_test` for automated tests).*
